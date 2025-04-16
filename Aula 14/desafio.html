@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ex 1</title>
     <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
         .box01 {
             background-color: rgb(255, 169, 32);
             font-size: 45px;
@@ -32,25 +35,56 @@
 
         h2 {
             margin-top: 200px;
-            margin-left: 200px;
+            margin-left: 30px;
             margin-right: 300px;
             font-weight: 900;
+            font-size: 25px;
         }
 
         label[for=email] {
-            margin-left: 170px;
-            margin-right: 300px;
+            margin-left: 25px;
+            margin-right: 300px; 
 
         }
 
         input[type=email] {
-            border-radius: 10%;
+            border-radius: 5%;
+            padding-top: 5px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-bottom: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
 
+        }
+        label[for=password]
+        {
+            margin-left: 30px;
+            margin-right: 300px; 
+            
         }
 
         input[type=password] {
-            border-radius: 10%;
+            border-radius: 5%;
+            padding-top: 5px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-bottom: 5px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+           
 
+        }
+        input[type=submit]
+        {
+            font-weight: 900;
+            color: white;
+            background-color: rgb(255, 169, 32);
+            border-radius: 5%;
+            padding: 10px 120px 10px 120px;
+            border-color: rgb(255, 169, 32);
+            
         }
     </style>
 </head>
@@ -64,11 +98,11 @@
         <h2>Login</h2>
         <label for="email">E-Mail</label>
         <br>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" placeholder="Insira seu E-mail" required>
         <br>
         <label for="password">Password</label>
         <br>
-        <input type="password" name="Password" id="password">
+        <input type="password" name="Password" id="password" placeholder="Insira sua senha" required> 
         <br>
         <input type="submit" value="Login">
 
