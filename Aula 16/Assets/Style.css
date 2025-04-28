@@ -1,0 +1,32 @@
+div {
+	font-family: arial;
+	text-align: center;
+}
+p {
+	border-color: blueviolet;
+	border: 1px solid;
+	margin: 30px 500px;
+	padding: 20px 10px;
+}
+.box02 {
+	text-indent: 20px;
+	letter-spacing: 10px;
+	background-color: blueviolet;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+span {
+	color: tomato;
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+.box01 {
+	text-align: center;
+}
+h1 h2 {
+	font-size: 20px;
+	line-height: 50px;
+	margin: 50px auto;
+	text-align: center;
+}
