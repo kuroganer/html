@@ -1,0 +1,28 @@
+caption {
+	color: darkcyan;
+	font-size: 45px;
+	margin: 20px 0;
+	font-weight: bold;
+}
+table {
+	border: darkcyan;
+	width: 100%;
+	border-collapse: collapse;
+}
+th {
+	color: white;
+	background-color: darkcyan;
+	text-align: center;
+	border: 0;
+}
+tr {
+	margin: 2px;
+}
+.span1 {
+	text-align: right;
+	font-weight: bold;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
