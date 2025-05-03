@@ -3,6 +3,7 @@ caption {
 	font-size: 45px;
 	margin: 20px 0;
 	font-weight: bold;
+	
 }
 table {
 	border: darkcyan;
@@ -15,14 +16,23 @@ th {
 	text-align: center;
 	border: 0;
 }
-tr {
-	margin: 2px;
+th, td{
+	border: 1px solid darkcyan;
+	height: 2rem;
 }
+
 .span1 {
 	text-align: right;
 	font-weight: bold;
+	
+
+}
+tr:hover{
+	background-color: lightgreen;
+	letter-spacing: 1px;
 }
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
