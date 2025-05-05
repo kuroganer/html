@@ -1,0 +1,22 @@
+.container {
+	border: 1px solid;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 10px;
+}
+div {
+	width: 250px;
+	height: 50px;
+	margin: 2px 2px;
+}
+.box01 {
+	background-color: purple;
+}
+.box02 {
+	background-color: cornflowerblue;
+}
+.box03 {
+	background-color: red;
+}
