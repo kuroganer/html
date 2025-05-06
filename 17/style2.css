@@ -3,28 +3,27 @@ caption {
 	font-size: 45px;
 	margin: 20px 0;
 	font-weight: bold;
-	
 }
 table {
 	border: cornflowerblue;
 	width: 90%;
 	border-collapse: collapse;
 	margin: 10px auto;
-	
 }
 thead {
 	color: white;
 	background-color: cornflowerblue;
 	text-align: center;
-font-weight: 900;
+	font-weight: 900;
 }
-th, td{
+th,
+td {
 	border: 1px solid cornflowerblue;
 	height: 2rem;
-    padding: 1rem;
+	padding: 1rem;
 }
 
-.hooover:hover{
+.hooover:hover {
 	background-color: darkolivegreen;
 	letter-spacing: 1px;
 	color: white;
@@ -34,48 +33,47 @@ th, td{
 	padding: 0;
 	box-sizing: border-box;
 }
-.açao{
-    
-    background-color: cornflowerblue;
- border:none;
- margin-top: 1rem;
- margin-left: 30%;
- padding: 0.6rem 1.9rem;
- color:white;
- font-size: 1.2rem;
+.açao {
+	background-color: cornflowerblue;
+	border: none;
+	margin: 1rem 30px;
+	padding: 0.6rem 1.9rem;
+	color: white;
+	font-size: 1.2rem;
 	display: inline-block;
 	text-decoration: none;
-
-	
 }
-img{
+img {
 	height: 60px;
 	width: 60px;
 	border-radius: 50%;
 }
-.titulo{
-color: cornflowerblue;
-border: 3px solid cornflowerblue;
-margin: 10px auto;
-padding: 10px 15px;
-width: 90%;
-}
-.Informacoes{
+.titulo {
+	color: cornflowerblue;
 	border: 3px solid cornflowerblue;
-margin: 3px auto;
-padding: 10px 15px;
-width: 90%;
+	margin: 10px auto;
+	padding: 10px 15px;
+	width: 90%;
 }
-.box1 h2{
+.Informacoes {
+	border: 3px solid cornflowerblue;
+	margin: 3px auto;
+	padding: 10px 15px;
+	width: 90%;
+}
+.box1 h2 {
 	margin: 20px 10px;
 }
-.box1 p{
+.box1 p {
 	margin: 20px 10px;
 }
-.space{
+.space {
 	margin: 0px 20px;
 }
-.qtd{
+.qtd {
 	font-weight: bold;
 	text-align: end;
+}
+.detalhes {
+	width: 200px;
 }
