@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+body {
+	background-color: #F4F7F8;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+div {
+	font-size: 16px;
+}
+.header {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #F4F7F8;
+	color: #5E2A8C; /* Roxo escuro */
+	border-bottom: 1px solid #D1A7D4; /* Cor roxa clara */
+}
+.navegacao ul li {
+	display: inline-block;
+	padding: 0 20px;
+	list-style-type: none;
+}
+.navegacao ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #5E2A8C; /* Roxo escuro */
+	font-size: 1.3rem;
+	font-weight: 900;
+	
+	
+}
+.navegacao ul li a:hover {
+	color: #9B4D99; /* Roxo mais claro para hover */
+}
+.login {
+	text-decoration: none;
+	display: inline-block;
+	background-color: #9B4D99; /* Roxo mais claro */
+	color: #F4F7F8;
+	padding: 10px 24px;
+	border-top-left-radius: 40%;
+	border-bottom-right-radius:40%;
+	font-weight: 700;
+	}
+.login:hover {
+	background-color: transparent;
+	border: 2px solid #9B4D99; /* Roxo mais claro */
+	color: #9B4D99;
+}
+.logo a {
+	color: #5E2A8C; /* Roxo escuro */
+	text-decoration: none;
+	font-size: 36px;
+	letter-spacing: 5px;
+	font-weight: 700;
+ 	font-family: Georgia, serif;
+}
+.logo span {
+	color: #9B4D99; /* Roxo mais claro */
+	font-size: 28px;
+		letter-spacing: 10px;
+	font-weight: 600;
+	
+}
+.logo a:hover {
+	color: #9B4D99; /* Roxo mais claro */
+}
+.logo span:hover {
+	color: #5E2A8C; /* Roxo escuro */
+}
+.login-box {
+	display: flex;
+	width: 400px;
+	height: 500px;
+	border: 2px solid #D1A7D4; /* Cor roxa clara */
+	align-items: center;
+	flex-direction: column;
+	border-radius: 16px;
+	margin: 8% auto;
+	padding: 24px;
+	background-color: #FFFFFF;
+	
+}
+.login-box h2 {
+	color: #5E2A8C; /* Roxo escuro */
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1.8rem;
+	margin: 40px 0;
+	font-weight: 900;
+}
+.login-box input {
+	width: 90%;
+	padding: 10px;
+	margin: 30px 0 ;
+	border: 1px solid #9B4D99; /* Roxo mais claro */
+	border-radius: 16px;
+	background-color: transparent;
+	color: #5E2A8C; /* Roxo escuro */
+	font-weight: 600;
+	text-align: center;
+}
+.login-box .submit {
+	background-color: #9B4D99; /* Roxo mais claro */
+	border: none;
+	padding: 10px 20px;
+	border-radius: 16px;
+	color: #FFFFFF;
+	width: 60%;
+    margin: 10px 20%;
+	font-weight: 700;
+
+}
+.login-box .submit:hover {
+	background-color: transparent;
+	border: 1px solid #9B4D99; /* Roxo mais claro */
+	color: #9B4D99;
+}
+
+.desc{
+	font-size: 10px;
+	text-align:end;
+	font-weight: bold;
+
+}
