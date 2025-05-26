@@ -1,9 +1,40 @@
 header {
+	background-color: #131a1f;
 	color: white;
 	display: flex;
-	justify-content: space-between;
-	align-content: center;
-	width: 100%;
+	justify-content: space-between;	
+	align-items: center;
 	height: 70px;
-	background-color: #131a1f;
+	
+}
+.logo {
+	display: inline-block;
+	text-decoration: none;
+	background-color: white;	
+	text-align: center;
+	padding: 0.2rem 0.5rem;
+
+	margin-left: 20px;
+	color: #131a1f;
+	font-weight: 900;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	margin-right: 20px;
+}
+nav li {
+	margin: 30px;
+}
+nav a {
+	
+	text-decoration: none;
+	color: white;
+	font-weight: 900;
+}
+header ul li a:hover {
+  color: #fff;
+  border-bottom: 2px solid #dcdcdc;
 }

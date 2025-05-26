@@ -6,6 +6,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	
 	box-sizing: border-box;
 	font-family: "Open Sans", sans-serif;
 }
@@ -16,121 +17,5 @@ body {
 main {
 	height: 100vh;
 }
-.logo {
-	text-decoration: none;
-	background-color: white;
-	gap: 10px;
-	padding: .5rem;
-	width: 80px;
-	height: 20px;
-	margin: 30px;
-	color: #131a1f;
-	font-weight: 900;
-}
-nav ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: flex-end;
-}
-nav li {
-	margin: 30px;
-}
-nav a {
-	text-decoration: none;
-	color: white;
-	font-weight: 900;
-}
-.section-title {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 30px;
-}
-.section-title h2 {
-	font-family: 900;
-}
-#search {
-	margin-right: 100px;
-	border-radius: 5px;
-	width: 200px;
-	height: 25px;
-}
-.card-container {
-	display: flex;
-	width: 1100px;
-	height: 380px;
 
-	margin: 20px auto;
-	gap: 10px;
-	justify-content: center;
-}
-.card {
-	width: 200px;
-	border-radius: 10px;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.card-img {
-	width: 200px;
-	height: 150px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-}
-.fa-solid .fa-location-dot {
-	width: 100px;
-	margin: 10px 0;
-}
-.card-title {
-	width: 200px;
-	margin: 10px 0;
-}
-.card-subtitle {
-	width: 200px;
-	margin: 10px 0;
-}
-.card-price {
-	display: flex;
-	margin: 20px 0;
-	justify-content: space-between;
-}
-.card-price ul {
-	list-style-type: none;
-	display: flex;
-}
-.card-price ul li i {
-	color: #ffd700;
-}
-.card-btn {
-	background-color: #131a1f;
-	padding: 5px 10px;
-	border-radius: 5px;
-	text-decoration: none;
-	color: #dcdcdc;
-}
-.footer-content {
-	color: white;
-	display: flex;
-	justify-content: space-around;
-	align-content: center;
-	width: 100%;
-	height: 60px;
-	background-color: #131a1f;
-	position: fixed;
-	bottom: 0%;
-}
-.footer-content .logo {
-	text-decoration: none;
-	background-color: white;
-	gap: 10px;
-	padding: 1px 5px;
-	width: 80px;
-	height: 20px;
-	margin: 30px;
-	color: #131a1f;
-	font-weight: 900;
-}
-footer ul {
-	list-style: none;
-	display: flex;
-}
-footer li {
-	gap: 10p;
-}
+
