@@ -1,69 +1,69 @@
 .section-title {
 	display: flex;
 	justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+	align-items: center;
+	flex-wrap: wrap;
 	margin-top: 2rem 0;
 }
 .section-title h2 {
 	font-size: 1.6rem;
-  color: #131a1f;
+	color: #131a1f;
 }
 .section-title-search input {
-  width: 15rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: white;
-  border-radius: 0.3rem;
+	width: 15rem;
+	padding: 0.5rem 1rem;
+	border: none;
+	background-color: white;
+	border-radius: 0.3rem;
 }
 .card-container {
 	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	margin-bottom: 7rem;
 	justify-content: center;
 }
 .card {
-	width: 250px;
+	width: 260px;
 	border-radius: 8px;
-    background-color: white;
-    overflow: hidden;	
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-margin: 10px;    
+	background-color: white;
+	overflow: hidden;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	margin: 10px;
 }
 .card-img {
-	 width: 100%;
-  height: 200px;	
+	width: 100%;
+	height: 200px;
 }
 .card .card-mark i {
-  width: 1rem;
+	width: 1rem;
 }
 .card .card-mark span {
-  margin-left: 0.35rem;
-  color: #8d8b8b;
-  font-weight: 300;
+	margin-left: 0.35rem;
+	color: #8d8b8b;
+	font-weight: 300;
 }
 .card-content {
-  padding: 20px;
+	padding: 20px;
 }
 .card-content h3 {
-  margin: 0.8rem 0;
-  font-size: 1.8rem;
+	margin: 0.8rem 0;
+	font-size: 1.8rem;
 }
 .card-content p {
-  color: #8d8b8b;
-  font-size: 0.9rem;
-  font-weight: 300;
-  line-height: 1.3rem;
-  margin-bottom: .3rem;
+	color: #8d8b8b;
+	font-size: 0.9rem;
+	font-weight: 300;
+	line-height: 1.3rem;
+	margin-bottom: 0.3rem;
 }
 .card-price {
 	display: flex;
-	 margin-top: .3rem;
+	margin-top: 0.3rem;
 	justify-content: space-between;
 }
 .card-price span {
-    font-size: 0.9rem;
-    font-weight: 700;
+	font-size: 0.9rem;
+	font-weight: 700;
 }
 .card-price ul {
 	list-style-type: none;
@@ -73,9 +73,9 @@ margin: 10px;
 	color: #ffd700;
 }
 .card-btn {
-    display: inline-block;
+	display: inline-block;
 	background-color: #131a1f;
-    margin-top: 20px;
+	margin-top: 20px;
 	padding: 10px 20px;
 	border-radius: 4px;
 	text-decoration: none;
