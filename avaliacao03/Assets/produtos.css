@@ -1,0 +1,52 @@
+table{
+    
+    width: 90%;
+    align-items: center;
+    margin: 60px auto;  
+    border:  #5E2A8C;
+    border-collapse: collapse;
+}
+caption{
+    
+     font-size: 45px;
+     color: #5E2A8C;
+     background-color: #F8F1EB;
+}
+
+td{
+      border: 1px solid #5E2A8C;
+}
+.produto{
+    font-size: 22px;
+    text-align: center;
+     color: #5E2A8C;
+     font-weight: bolder;
+    
+}
+thead {
+	color: #5E2A8C;
+	background-color: #F8F1EB;
+	text-align: center;
+font-weight: 900;
+}
+th, td{
+	border: 1px solid #D1A7D4; 
+	height: 2rem;
+    padding: 1rem;
+}
+.hooover img{
+    width: 300px;
+}
+.açao{
+    background-color: #5E2A8C;
+    color: #F8F1EB;
+    padding: 10px 5px;
+    text-decoration: none;
+    border-radius:3px;
+    margin: 20%;
+    
+   
+}
+.size{
+    width: 8%;
+}
