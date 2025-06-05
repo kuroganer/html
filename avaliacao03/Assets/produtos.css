@@ -17,6 +17,8 @@ caption {
 thead {
     background-color: #F8F1EB;
     color: #5E2A8C;
+ 
+    
 }
 
 thead th {
@@ -24,6 +26,7 @@ thead th {
     border: 1px solid #D1A7D4;
     font-weight: 900;
     text-align: center;
+    
 }
 
 th, td {
@@ -32,6 +35,9 @@ th, td {
     text-align: center;
     vertical-align: middle;
     font-size: 1rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 450;
+   
 }
 
 td.produto {
@@ -63,4 +69,5 @@ td.size {
     text-decoration: none;
     border-radius: 5px;
     font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

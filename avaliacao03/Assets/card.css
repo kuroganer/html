@@ -8,6 +8,7 @@ section .inicio {
 	flex-wrap: wrap;
 	margin-top: 100px;
     margin-bottom: 60px;
+   
     
 }
 .inicio h2 {
@@ -16,12 +17,15 @@ section .inicio {
     margin-bottom: 40px;
     margin-left: 20px;
     text-align: start;
+    font-family: "Playfair Display", serif;
+    
 }
 .inicio p{
     font-size: 20px;
     color: #9B4D99; 
     font-weight: bolder;
     text-align: center;
+    font-family: "Playfair Display", serif;
  
 }
 
@@ -48,10 +52,12 @@ section .inicio {
   background-color: rgba(0, 0, 0, 0.7);
   color: #F4F7F8;  
   padding: 0 10px;
+   font-family: sans-serif;
 }
 .descri{
     display: flex;
     flex-direction: column;   
+   
    
 }
 .descri h2{
@@ -63,6 +69,7 @@ section .inicio {
     text-align: justify;
     margin: 10px 0;
       font-size: 1rem;
+      
    
 }
 .preco{

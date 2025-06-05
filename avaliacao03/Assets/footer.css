@@ -9,6 +9,7 @@
 	bottom: 0%;
     width: 100vw;
     height: 80px;
+	font-family: "Playfair Display", serif;
 	overflow: auto;
 }
 .footer p{

@@ -1,11 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url(../Assets/footer.css);
-@import url(../Assets/login.css);
-@import url(../css/footer.css);
-@import url(../css/login.css);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url(footer.css);
+@import url(card.css);
+@import url(cadastro.css);
+@import url(login.css);
+@import url(produtos.css);
+
 * {
 	margin: 0;
 	padding: 0;	
+	
 }
 body {
 	background-color: #F4F7F8;
@@ -25,6 +28,7 @@ div {
 	color: #5E2A8C; 
 	border-bottom: 1px solid #D1A7D4; 
 	overflow: auto;
+	font-family: "Playfair Display", serif;
 }
 .navegacao ul li {
 	display: inline-block;
