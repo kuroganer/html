@@ -9,6 +9,7 @@
 	margin: 8% auto;
 	padding: 24px;
 	background-color: #FFFFFF;
+	flex-wrap: wrap;
 	
 }
 .login-box h2 {

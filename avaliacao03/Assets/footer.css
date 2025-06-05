@@ -9,6 +9,7 @@
 	bottom: 0%;
     width: 100vw;
     height: 80px;
+	overflow: auto;
 }
 .footer p{
     font-size: 14px;

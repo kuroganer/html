@@ -24,6 +24,7 @@ div {
 	background-color: #F8F1EB;
 	color: #5E2A8C; 
 	border-bottom: 1px solid #D1A7D4; 
+	overflow: auto;
 }
 .navegacao ul li {
 	display: inline-block;

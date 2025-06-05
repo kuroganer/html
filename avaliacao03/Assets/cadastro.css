@@ -10,6 +10,7 @@
 	margin: 8% auto;
 	padding: 24px;
 	background-color: #FFFFFF;
+	flex-wrap: wrap;
 	
 }
 .cadastro-box h2 {
