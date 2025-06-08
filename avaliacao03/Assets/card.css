@@ -5,9 +5,7 @@ section .inicio {
 	justify-content: space-evenly;	
 	flex-wrap: wrap;
 	margin-top: 100px;
-    margin-bottom: 60px;
-   
-    
+    margin-bottom: 60px;    
 }
 .inicio h2 {
 	font-size: 1.6rem;
@@ -15,16 +13,14 @@ section .inicio {
     margin-bottom: 40px;
     margin-left: 20px;
     text-align: start;
-    font-family: "Playfair Display", serif;
-    
+    font-family: "Playfair Display", serif;   
 }
 .inicio p{
     font-size: 20px;
     color: #9B4D99; 
     font-weight: bolder;
     text-align: center;
-    font-family: "Playfair Display", serif;
- 
+    font-family: "Playfair Display", serif; 
 }
 
 .card{
@@ -32,7 +28,6 @@ section .inicio {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 100%;
-
 }
 .produto-container{   
     width: 400px;     
@@ -42,7 +37,6 @@ section .inicio {
 }
 .produto-container img {
 	width: 100%;
-
 }
 .overlay {
   max-height: 0;
@@ -54,21 +48,15 @@ section .inicio {
 }
 .descri{
     display: flex;
-    flex-direction: column;   
-   
-   
+    flex-direction: column;     
 }
 .descri h2{
      text-align: center;
-    
-
 }
  .text{
     text-align: justify;
     margin: 10px 0;
-      font-size: 1rem;
-      
-   
+      font-size: 1rem;   
 }
 .preco{
     font-size: 1.4rem;

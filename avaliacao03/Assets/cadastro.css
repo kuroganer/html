@@ -10,8 +10,7 @@
 	margin: 8% auto;
 	padding: 24px;
 	background-color: #FFFFFF;
-	flex-wrap: wrap;
-	
+	flex-wrap: wrap;	
 }
 .cadastro-box h2 {
 	color: #5E2A8C; 
@@ -40,7 +39,6 @@
 	width: 60%;
     margin: 10px 20%;
 	font-weight: 700;
-
 }
 .cadastro-box .submit:hover {
 	background-color: transparent;
