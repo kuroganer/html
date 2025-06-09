@@ -1,0 +1,33 @@
+div {
+	width: 60%;
+	border: 2px solid blue;
+	height: 400px;
+	text-align: justify;
+	margin: 40px auto;
+	color: grey;
+}
+h1 {
+	text-align: center;
+}
+@media (max-width: 768px) {
+	div {
+		background-color: tomato;
+		color: white;
+	}
+}
+@media (min-width: 461px) {
+	div {
+		background-color: cornflowerblue;
+		color: black;
+		font-size: 2rem;
+		overflow: auto;
+	}
+}
+@media (min-width: 1024px) {
+	div {
+		background-color: purple;
+		color: aqua;
+		font-size: 0.8rem;
+		overflow: auto;
+	}
+}
