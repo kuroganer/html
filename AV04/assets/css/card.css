@@ -3,17 +3,18 @@
       padding: 60px 15px;
       background: linear-gradient(to right, #F8F1EB, #D1A7D4);
       color: #5E2A8C;
+      
     }
 
     .secao-hero h1 {
       font-size: 3rem;
       font-weight: 900;
-      margin-bottom: 15px;
+      margin-bottom: 50px;
     }
 
     .secao-hero p {
       font-size: 1.2rem;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
     }
 
     .botao-chamada-hero {
@@ -23,6 +24,7 @@
       padding: 12px 24px;
       border-radius: 30px;
       font-weight: 700;
+      margin-top: 30px;
     }
 
     .botao-chamada-hero:hover {

@@ -25,16 +25,17 @@ div {
   flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
-	background-color: #F8F1EB;
-	color: #5E2A8C; 
-	border-bottom: 1px solid #D1A7D4; 
-	font-family: "Playfair Display", serif;
+	background-color: #D1A7D4; 
+	color: #9B4D99;
+	border-bottom: 1px solid #9B4D99;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 20px;
 }
  .navegacao {
       display: none;
       text-transform: capitalize;
-      color: #9B4D99;;
+      color: #9B4D99;
+	  border-color:#F4F7F8 ;
       font-size: 1.2rem;
       font-weight: 900;
     }
@@ -46,7 +47,8 @@ div {
 .navegacao ul li a {
 	text-decoration: none;
 	text-transform: capitalize;
-	color: #5E2A8C; 
+	color: #9B4D99;
+	text-shadow: 1px 1px 2px #D1A7D4; 
 	font-size: 1.5rem;
 	font-weight: 900;	
 }
@@ -76,13 +78,12 @@ div {
 	width: auto;
 	height: 50px;
 }
-.logo img:hover {
-  content: url('../IMG/ChatGPT\ Image\ 2\ de\ jun.\ de\ 2025\,\ 13_25_13.png'); 
-}
+
 .desc{
 	font-size: 10px;
 	text-align:end;
 	font-weight: bold;
+		text-shadow: 1px 1px 2px #D1A7D4; 
 }
 a{
   text-decoration: none;
