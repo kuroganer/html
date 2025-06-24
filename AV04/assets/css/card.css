@@ -1,98 +1,97 @@
 .secao-hero {
-      text-align: center;
-      padding: 60px 15px;
-      background: linear-gradient(to right, #F8F1EB, #D1A7D4);
-      color: #5E2A8C;
-      
-    }
+  text-align: center;
+  padding: 60px 15px;
+  background: linear-gradient(to right, #F6F0EA, #C38FC4); 
+  color: #3E1A5D; 
+}
 
-    .secao-hero h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      margin-bottom: 50px;
-    }
+.secao-hero h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
 
-    .secao-hero p {
-      font-size: 1.2rem;
-      margin-bottom: 50px;
-    }
+.secao-hero p {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
 
-    .botao-chamada-hero {
-      display: inline-block;
-      background-color:  #9B4D99;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 30px;
-      font-weight: 700;
-      margin-top: 30px;
-    }
+.botao-chamada-hero {
+  display: inline-block;
+  background-color: #A23C8D; 
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+}
 
-    .botao-chamada-hero:hover {
-      background-color: #5E2A8C;
-    }
+.botao-chamada-hero:hover {
+  background-color: #3E1A5D; 
+}
 
-    .produtos-em-destaque {
-      padding: 40px 15px;
-      text-align: center;
-    }
+.produtos-em-destaque {
+  padding: 40px 15px;
+  text-align: center;
+}
 
-    .produtos-em-destaque h2 {
-      font-size: 1.6rem;
-      margin-bottom: 30px;
-      color: #5E2A8C;
-      font-family: "Playfair Display", serif;
-      border-bottom: 2px solid  #D1A7D4;
-      display: inline-block;
-      padding-bottom: 8px;
-    }
+.produtos-em-destaque h2 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  color: #3E1A5D;
+  font-family: "Playfair Display", serif;
+  border-bottom: 2px solid #C38FC4; 
+  display: inline-block;
+  padding-bottom: 8px;
+}
 
-    .cartao-produto {
-      background-color: branco;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      margin-bottom: 30px;
-    }
+.cartao-produto {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
 
-    .cartao-produto img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
+.cartao-produto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
 
-    .conteudo-cartao {
-      padding: 15px;
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-      justify-content: space-between;
-    }
+.conteudo-cartao {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
 
-    .info-produto {
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-      justify-content: space-between;
-    }
+.info-produto {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
 
-    .info-produto h2 {
-      font-size: 1.2rem;
-      margin-top: 5px auto;
-      color: #5E2A8C;
-    }
+.info-produto h2 {
+  font-size: 1.2rem;
+  margin-top: 5px auto;
+  color: #3E1A5D;
+}
 
-    .info-produto .texto-descricao {
-      font-size: 0.95rem;
-      margin-bottom: 10px;
-      overflow: hidden;
-      display: block;
-      max-height: 5.7em;
-      line-height: 1.4em;
-      color: #9B4D99; 
-    }
+.info-produto .texto-descricao {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: block;
+  max-height: 5.7em;
+  line-height: 1.4em;
+  color: #A23C8D; 
+}
 
-    .valor-produto {
-      font-weight: bold;
-      color: #5E2A8C;
-      margin-top: 5px auto;
-    }
+.valor-produto {
+  font-weight: bold;
+  color: #3E1A5D;
+  margin-top: 5px auto;
+}

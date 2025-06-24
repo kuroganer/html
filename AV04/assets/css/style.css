@@ -1,95 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-
 * {
-	margin: 0;
-	padding: 0;	
+  margin: 0;
+  padding: 0;	
   box-sizing: border-box;
-	
 }
+
 body {
-	background-color: #F4F7F8;
-	font-family: 'Helvetica Neue', sans-serif;
-
+  background-color: #F6F0EA; 
+  font-family: 'Helvetica Neue', sans-serif;
 }
+
 main {
-      padding: 20px;
-      padding-bottom: 100px;
-    }
-div {
-	font-size: 16px;
-}
-.header {
-	width: 100%;	
-	display: flex;
-  flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: center;
-	background-color: #D1A7D4; 
-	color: #9B4D99;
-	border-bottom: 1px solid #9B4D99;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px 20px;
-}
- .navegacao {
-      display: none;
-      text-transform: capitalize;
-      color: #9B4D99;
-	  border-color:#F4F7F8 ;
-      font-size: 1.2rem;
-      font-weight: 900;
-    }
-.navegacao ul li {
-	display: inline-block;
-	padding: 0 20px;
-	list-style-type: none;
-}
-.navegacao ul li a {
-	text-decoration: none;
-	text-transform: capitalize;
-	color: #9B4D99;
-	text-shadow: 1px 1px 2px #D1A7D4; 
-	font-size: 1.5rem;
-	font-weight: 900;	
-}
-.navegacao ul li a:hover {
-	color: #9B4D99; 
-}
-.botao-login {
-	text-decoration: none;
-	display: inline-block;
-	background-color: #9B4D99;
-	color: #F4F7F8;
-	padding: 10px 24px;
-	border-top-left-radius: 40%;
-	border-bottom-right-radius:40%;
-	font-weight: 700;
-	}
-.botao-login:hover {
-	background-color: transparent;
-	border: 2px solid #9B4D99;
-	color: #9B4D99;
-}
-.logo  {
-	margin: 1px 0px auto;
-	
-}
-.logo img{
-	width: auto;
-	height: 50px;
+  padding: 20px;
+  padding-bottom: 100px;
 }
 
-.desc{
-	font-size: 10px;
-	text-align:end;
-	font-weight: bold;
-		text-shadow: 1px 1px 2px #D1A7D4; 
+div {
+  font-size: 16px;
 }
-a{
+
+.header {
+  width: 100%;	
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #C38FC4;
+  color: #3E1A5D; 
+  border-bottom: 1px solid #A23C8D;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 20px;
+}
+
+.navegacao {
+  display: none;
+  text-transform: capitalize;
+  color: #A23C8D; /* tom rosa escuro elegante */
+  border-color: #F6F0EA;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.navegacao ul li {
+  display: inline-block;
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+.navegacao ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #A23C8D;
+  text-shadow: 1px 1px 2px #C38FC4;
+  font-size: 1.5rem;
+  font-weight: 900;	
+}
+
+.navegacao ul li a:hover {
+  color: #3E1A5D;
+}
+
+.botao-login {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #A23C8D;
+  color: #F6F0EA;
+  padding: 10px 24px;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  font-weight: 700;
+}
+
+.botao-login:hover {
+  background-color: transparent;
+  border: 2px solid #A23C8D;
+  color: #A23C8D;
+}
+
+.logo {
+  margin: 1px 0px auto;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+}
+
+.desc {
+  font-size: 10px;
+  text-align: end;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #C38FC4;
+}
+
+a {
   text-decoration: none;
 }
+
 img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
